@@ -1,0 +1,27 @@
+name: Validate portal deployment
+
+on:
+  pull_request:
+    paths:
+      - "portal/**"
+      - "scripts/validate-portal-deployment.mjs"
+      - ".github/workflows/validate-portal-deployment.yml"
+  push:
+    branches: [main]
+    paths:
+      - "portal/**"
+      - "scripts/validate-portal-deployment.mjs"
+      - ".github/workflows/validate-portal-deployment.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate provenance, hashes, backend and critical features
+        run: node scripts/validate-portal-deployment.mjs
