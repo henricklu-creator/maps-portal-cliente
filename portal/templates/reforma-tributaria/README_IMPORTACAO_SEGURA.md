@@ -36,4 +36,3 @@ Uso correto:
 4. rt_ncm_nbs_vinculacao, quando disponível
 5. rt_cbenef_oficial, quando aplicável
 6. rt_simples_anexo_faixa e rt_simples_partilha_ibs_cbs, quando houver fonte oficial operacional
-
