@@ -18,7 +18,10 @@ const REQUIRED_MARKERS = [
   "Crédito Outorgado GO",
   "Crédito de ICMS de CT-e importados",
   "ICMS-ST calculado no ingresso",
-  "Economia vs. Apuração Normal",
+  "Economia tributária",
+  "Conferir apuração",
+  "Ajustes extra-apuração",
+  "icms_extra_adjustments",
   "Análise Fiscal",
 ];
 
