@@ -23,6 +23,10 @@ const REQUIRED_MARKERS = [
   "Ajustes extra-apuração",
   "icms_extra_adjustments",
   "Análise Fiscal",
+  "Selecionar empresa e período da análise",
+  "Dados cadastrais e fiscais da empresa",
+  "Movimento do período",
+  "inscricao_estadual",
 ];
 
 function fail(message) {
