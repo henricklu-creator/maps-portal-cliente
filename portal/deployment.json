@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "application": "portal-cliente",
   "sourceRepository": "henricklu-creator/fiscabot-pro",
-  "sourceCommit": "487168ffa90d0fd1f71342204efc0805c4ca4b9f",
+  "sourceCommit": "679f03a7e9e95a3bd737a7b01ecd6887da68f81c",
   "dirty": false,
   "verification": "git-and-source-hashes",
-  "sourceSnapshotCommit": "661ea2e2eb369351b9034bcbc2bbd6c1fa67f84a",
-  "builtAt": "2026-09-29T20:21:58.506Z",
+  "sourceSnapshotCommit": "91afdecef70a8c2bc57fe837602bd71c82a09a5d",
+  "builtAt": "2026-09-29T22:16:35.635Z",
   "supabaseProjectRef": "oadqtuisqewfbtvgwfkz",
   "assets": {
-    "assets/index-Duk3YeAO.js": "sha256:2a289c4c225eedb5b1a4eba843e61d2ec9102c0d296abe01803f68e74a8ab4d9",
-    "assets/index-WLGws5d2.css": "sha256:36f57c1738b3ad00e3a88a13fac539795bb3c4eb64b6b30074aea7879315ec14"
+    "assets/index-CIe_8wd0.js": "sha256:070f66acc9b9bb6fce9239db6c5234e776dd20cf566452739d0a0dae7194e45a",
+    "assets/index-On4bF4_Q.css": "sha256:2993a39bfa9761edf713c112e067834530dec046211e6d7b0c33d1637037b2c3"
   }
 }
