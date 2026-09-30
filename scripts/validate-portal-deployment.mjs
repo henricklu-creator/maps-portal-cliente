@@ -27,6 +27,13 @@ const REQUIRED_MARKERS = [
   "Dados cadastrais e fiscais da empresa",
   "Movimento do período",
   "inscricao_estadual",
+  "Apuração do Simples Nacional",
+  "Composição do DAS",
+  "DAS projetado",
+  "DAS apurado",
+  "ISS a recolher",
+  "portal_pis_cofins_group_input",
+  "Apuração centralizada e rateio",
 ];
 
 function fail(message) {
@@ -60,6 +67,10 @@ for (const assetPath of indexAssets) {
   if (manifest.assets?.[assetPath] !== actualHash) {
     fail(`hash divergente para ${assetPath}`);
   }
+}
+
+if (!index.includes("family=Montserrat:")) {
+  fail("fonte Montserrat ausente no portal");
 }
 
 const javascript = indexAssets
